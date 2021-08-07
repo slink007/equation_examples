@@ -1,0 +1,14 @@
+The example .tex files in these folders will create an
+image which is just big enough to contain the .png
+representation of the equation in question.
+
+To use:
+1. Copy a file to another folder.
+2. Edit the contents to produce the desired equation.
+3. Do latex <file name>.  This will produce a .dvi file.
+4. Do dvipng -T tight <file.dvi>.  This will produce the
+   .png file.
+5. Copy/paste file as needed.
+
+TODO: Write a script that will do all of this.  Just pass
+      it a file name and let it run.
